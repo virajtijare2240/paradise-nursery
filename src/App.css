@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e");
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.landing-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+}
+
+.landing-navbar h2 {
+  font-size: 28px;
+}
+
+.landing-navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.landing-content {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.landing-content h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.landing-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.landing-content p {
+  font-size: 18px;
+  max-width: 600px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #2e7d32;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .landing-navbar {
+    padding: 20px;
+  }
+
+  .landing-content h1 {
+    font-size: 36px;
+  }
+
+  .landing-content h2 {
+    font-size: 24px;
+  }
+}

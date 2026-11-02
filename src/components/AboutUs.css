@@ -1,0 +1,31 @@
+
+.about-container {
+  min-height: 100vh;
+  padding: 100px 30px;
+  text-align: center;
+  background-color: #f1f8e9;
+  color: #234b27;
+  font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.about-container p {
+  max-width: 750px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background-color: #388e3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
